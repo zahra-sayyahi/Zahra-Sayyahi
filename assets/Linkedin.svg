@@ -1,0 +1,39 @@
+<svg width="210" height="56" viewBox="0 0 210 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- گرادیانت متحرک -->
+    <linearGradient id="linkedinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop class="c1" offset="0%" stop-color="#0077b5"/>
+      <stop class="c2" offset="50%" stop-color="#6366f1"/>
+      <stop class="c3" offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <style>
+      /* انیمیشن گرادیانت */
+      @keyframes shiftC1 { 0%,100% { stop-color:#0077b5; } 50% { stop-color:#a855f7; } }
+      @keyframes shiftC2 { 0%,100% { stop-color:#6366f1; } 50% { stop-color:#0077b5; } }
+      @keyframes shiftC3 { 0%,100% { stop-color:#a855f7; } 50% { stop-color:#6366f1; } }
+      .c1 { animation: shiftC1 6s ease-in-out infinite; }
+      .c2 { animation: shiftC2 6s ease-in-out infinite; }
+      .c3 { animation: shiftC3 6s ease-in-out infinite; }
+
+      /* انیمیشن هاور */
+      .btn-group { cursor: pointer; }
+      .btn-group:hover { transform: scale(1.05); transition: transform 0.3s ease; }
+    </style>
+  </defs>
+
+  <g class="btn-group">
+    <!-- بدنه اصلی دکمه -->
+    <rect x="5" y="3" width="200" height="50" rx="25" ry="25"
+          fill="url(#linkedinGrad)"/>
+
+    <!-- آیکون LinkedIn -->
+    <g transform="translate(20, 18)">
+      <rect x="0" y="0" width="20" height="20" rx="3" fill="white"/>
+      <text x="4" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="900" fill="#0077b5">in</text>
+    </g>
+
+    <!-- متن LinkedIn -->
+    <text x="52" y="35" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="white">LinkedIn</text>
+  </g>
+</svg>

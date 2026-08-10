@@ -1,0 +1,32 @@
+<svg width="340" height="90" viewBox="0 0 340 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bar { transform-box: fill-box; transform-origin: bottom; }
+      .refl { opacity: 0.18; transform-box: fill-box; transform-origin: top; }
+      @keyframes eq1 { 0%,100% { transform: scaleY(0.3); } 50% { transform: scaleY(1); } }
+      @keyframes eq2 { 0%,100% { transform: scaleY(0.5); } 50% { transform: scaleY(0.9); } }
+      @keyframes eq3 { 0%,100% { transform: scaleY(0.25); } 50% { transform: scaleY(1); } }
+      .e1 { animation: eq1 0.7s ease-in-out infinite; }
+      .e2 { animation: eq2 0.55s ease-in-out infinite; }
+      .e3 { animation: eq3 0.9s ease-in-out infinite; }
+    </style>
+  </defs>
+  <g transform="translate(0,50)">
+    <rect class="bar e1" x="10"  y="-40" width="18" height="40" rx="4" fill="#a855f7"/>
+    <rect class="bar e2" x="38"  y="-40" width="18" height="40" rx="4" fill="#06b6d4" style="animation-delay:0.1s;"/>
+    <rect class="bar e3" x="66"  y="-40" width="18" height="40" rx="4" fill="#f43f5e" style="animation-delay:0.2s;"/>
+    <rect class="bar e2" x="94"  y="-40" width="18" height="40" rx="4" fill="#a855f7" style="animation-delay:0.3s;"/>
+    <rect class="bar e1" x="122" y="-40" width="18" height="40" rx="4" fill="#06b6d4" style="animation-delay:0.4s;"/>
+    <rect class="bar e3" x="150" y="-40" width="18" height="40" rx="4" fill="#f43f5e" style="animation-delay:0.15s;"/>
+    <rect class="bar e2" x="178" y="-40" width="18" height="40" rx="4" fill="#a855f7" style="animation-delay:0.25s;"/>
+    <rect class="bar e1" x="206" y="-40" width="18" height="40" rx="4" fill="#06b6d4" style="animation-delay:0.35s;"/>
+    <rect class="bar e3" x="234" y="-40" width="18" height="40" rx="4" fill="#f43f5e" style="animation-delay:0.05s;"/>
+    <rect class="bar e2" x="262" y="-40" width="18" height="40" rx="4" fill="#a855f7" style="animation-delay:0.45s;"/>
+
+    <rect class="refl e1" x="10"  y="0" width="18" height="18" rx="3" fill="#a855f7"/>
+    <rect class="refl e2" x="66"  y="0" width="18" height="18" rx="3" fill="#f43f5e" style="animation-delay:0.2s;"/>
+    <rect class="refl e3" x="122" y="0" width="18" height="18" rx="3" fill="#06b6d4" style="animation-delay:0.4s;"/>
+    <rect class="refl e1" x="178" y="0" width="18" height="18" rx="3" fill="#a855f7" style="animation-delay:0.25s;"/>
+    <rect class="refl e2" x="234" y="0" width="18" height="18" rx="3" fill="#f43f5e" style="animation-delay:0.05s;"/>
+  </g>
+</svg>

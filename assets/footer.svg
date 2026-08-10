@@ -1,0 +1,15 @@
+<svg width="900" height="45" viewBox="0 0 900 45" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .wave { animation: flow 6s linear infinite; }
+      @keyframes flow { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -240; } }
+
+      .made { animation: fade 3s ease-in-out infinite; }
+      @keyframes fade { 0%,100% { opacity:0.7; } 50% { opacity:1; } }
+    </style>
+  </defs>
+
+  <path class="wave" d="M0,20 Q 30,0 60,20 T 120,20 T 180,20 T 240,20 T 300,20 T 360,20 T 420,20 T 480,20 T 540,20 T 600,20 T 660,20 T 720,20 T 780,20 T 840,20 T 900,20"
+        fill="none" stroke="#a855f7" stroke-width="2" stroke-dasharray="6 6" opacity="0.5"/>
+
+</svg>

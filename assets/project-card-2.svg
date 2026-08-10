@@ -1,0 +1,24 @@
+<svg width="430" height="190" viewBox="0 0 430 190" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes borderPulse { 0%,100% { stroke-opacity:0.4; } 50% { stroke-opacity:1; } }
+      .border { animation: borderPulse 2.6s ease-in-out infinite 0.4s; }
+      @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .star { animation: spin 4.4s linear infinite; transform-box: fill-box; transform-origin: center; }
+      @keyframes bob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+      .icon { animation: bob 2.4s ease-in-out infinite 0.3s; transform-box: fill-box; transform-origin: center; }
+    </style>
+  </defs>
+
+  <rect x="4" y="4" width="422" height="182" rx="18" fill="#111118"/>
+  <rect class="border" x="4" y="4" width="422" height="182" rx="18" fill="none" stroke="#06b6d4" stroke-width="2"/>
+
+  <polygon class="star" points="398,20 400,26 406,26 401,30 403,36 398,32 393,36 395,30 390,26 396,26" fill="#fbbf24"/>
+
+  <text x="34" y="55" fill="#e2e8f0" font-family="'Fira Code',monospace" font-size="20" font-weight="700">02</text>
+  <text x="34" y="92" fill="#e2e8f0" font-family="'Segoe UI',Arial,sans-serif" font-size="19" font-weight="700">Computer Vision of the dogs</text>
+  <text x="34" y="116" fill="#94a3b8" font-family="'Segoe UI',Arial,sans-serif" font-size="13">Using Computer Vision to</text>
+  <text x="34" y="134" fill="#94a3b8" font-family="'Segoe UI',Arial,sans-serif" font-size="13">recognise different type of dogs.</text>
+  <text x="34" y="164" fill="#fbbf24" font-family="'Fira Code',monospace" font-size="13">★ 0</text>
+  <text x="285" y="164" fill="#94a3b8" font-family="'Fira Code',monospace" font-size="13">View repository →</text>
+</svg>
