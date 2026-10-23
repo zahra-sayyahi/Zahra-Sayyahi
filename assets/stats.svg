@@ -55,7 +55,7 @@
     </g>
     <rect class="card-border b2" x="320" y="20" width="260" height="150" rx="20"/>
     <text class="icon" x="450" y="65" text-anchor="middle" font-size="26" style="animation-delay:0.3s;">👥</text>
-    <text id="stat-followers" class="num num2" x="450" y="115" text-anchor="middle" font-size="40" font-weight="900" fill="url(#numGrad2)" font-family="'Segoe UI',Arial,sans-serif">8</text>
+    <text id="stat-followers" class="num num2" x="450" y="115" text-anchor="middle" font-size="40" font-weight="900" fill="url(#numGrad2)" font-family="'Segoe UI',Arial,sans-serif">9</text>
     <text x="450" y="145" text-anchor="middle" fill="#94a3b8" font-family="'Segoe UI',Arial,sans-serif" font-size="14">Followers</text>
   </g>
 
